@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+results/
+.DS_Store
+# Model states, fitted scalers, private training exports — intentionally unpublished
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.pickle
+# Environment and temporary data
+.env
+.env.*
+.ipynb_checkpoints/
