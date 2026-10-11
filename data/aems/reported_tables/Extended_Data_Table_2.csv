@@ -1,0 +1,15 @@
+Metric,NN,BO,Interpretation
+Cleaned candidates,250,491,Frozen matched-comparison cohorts used for Fig. 4; the BO count is distinct from the 482-candidate production realization in the AEM production-workflow subsection.
+Candidates after heuristic-accessibility filter,138,310,Matched-comparison counts after the same heuristic-accessibility cutoff.
+Heuristic-accessibility retention,55.2%,63.1%,BO retained a higher fraction of the matched-comparison cohort after the heuristic-accessibility filter.
+Candidates after diversity filter,134,122,Matched-comparison final counts after diversity filtering.
+Diversity retention from cleaned set,53.6%,24.8%,NN retained a larger fraction of its cleaned set.
+Mean maximum Tanimoto similarity to training,0.205 ± 0.224,0.695 ± 0.105,NN candidates were markedly more novel.
+Highly novel fraction,86.6%,4.1%,NN produced far more nominally novel candidates.
+Mean composite AEM-quality score,0.627 ± 0.078,0.655 ± 0.110,BO scored higher on average.
+Mean predicted conductivity (S cm⁻¹),0.0408,0.0775,BO candidates had higher surrogate-predicted conductivity in the matched retained cohort.
+High-score fraction,12.7%,38.5%,BO produced three times the fraction of high-scoring candidates.
+Mean heuristic-accessibility score,4.94 ± 1.69,4.72 ± 1.48,BO candidates had a modestly lower structural-complexity penalty under the in-house heuristic.
+Candidates inside projected training-set hull (PC1–PC2),11.9%,86.9%,BO concentrated candidates within the projected training-set envelope.
+Structural-plausibility pass rate,8.4%,56.2%,BO candidates were substantially more chemically ordinary.
+Candidate hull area (PC1–PC2),22.25,24.04,"Comparable 2D projected coverage area—the hull-percentage gap reflects NN points outside the training-set hull, not a smaller BO footprint."

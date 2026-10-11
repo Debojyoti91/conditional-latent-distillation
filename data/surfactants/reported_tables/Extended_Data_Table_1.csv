@@ -1,0 +1,16 @@
+Metric,NN ,BO ,Interpretation
+Cleaned candidates,205,841,Candidate sets entering matched post-processing.
+Candidates after heuristic-accessibility filter,164,776,BO retained more candidates under the same heuristic-accessibility cutoff.
+Heuristic-accessibility retention,80.0%,92.3%,BO retained a higher fraction after the same heuristic-accessibility filter.
+Candidates after diversity filter,15,118,BO retained a much larger nonredundant candidate population.
+Diversity retention from cleaned set,7.3%,14.0%,BO retained nearly twice the fraction of candidates after diversity filtering.
+Mean maximum Tanimoto similarity to training,0.809 ± 0.165,0.676 ± 0.154,BO candidates were less similar to the training set.
+Median maximum Tanimoto similarity to training,0.800,0.667,BO shifted the retained population toward greater novelty.
+Moderately/highly novel fraction,26.7%,58.5%,BO enriched candidates outside close training-set analogues.
+Highly novel fraction,0.0%,16.1%,Only BO produced highly novel candidates after matched filtering.
+Mean composite amphiphile score,0.486 ± 0.120,0.484 ± 0.144,BO preserved amphiphile-like ranking quality.
+Median composite amphiphile score,0.474,0.474,The central amphiphile-score tendency was unchanged between branches.
+High-score fraction,26.7%,25.4%,BO maintained a comparable fraction of high-scoring retained candidates.
+Mean heuristic-accessibility score,3.207 ± 1.840,3.780 ± 1.790,Both retained sets remained within the applied heuristic-accessibility threshold.
+Candidates inside projected training-set hull (PC1–PC2),93.3%,93.2%,Both branches remained mostly within the projected SurfPro training-set envelope.
+Candidate hull area (PC1–PC2),5.60,14.58,BO covered a broader area in the 2D fingerprint-PCA projection.

@@ -1,0 +1,5 @@
+comparison,better_model,comparator,mean_RMSE_improvement,CI95_low,CI95_high,bootstrap_fraction_improvement_le_0
+Full_original vs Structure_original,Full_original,Structure_original,0.007957995567418956,0.006873539506344631,0.009068783588238477,0.0
+Full_complete vs Structure_complete,Full_complete,Structure_complete,9.166186093666467e-05,-0.0001724401235185422,0.00034827459011056884,0.2489
+Full_complete vs Property_only,Full_complete,Property_only,0.007100427317556599,0.006020854290519022,0.008176546441653398,0.0
+Full_complete vs Full_original,Full_complete,Full_original,0.00026665389204332565,-0.0001381326842057218,0.0006747761068460004,0.1006

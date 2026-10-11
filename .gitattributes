@@ -1,22 +1,10 @@
 *.py text eol=lf
 *.md text eol=lf
-*.json text eol=lf
 *.toml text eol=lf
 *.yml text eol=lf
-*.csv text eol=lf
+*.ipynb text eol=lf
+data/** -text
+*.npy binary
 *.npz binary
-*.pt binary
-*.pkl binary
-*.png binary
-*.pdf binary
-
-# Preserve research/provenance bytes: input validation checks their SHA256 hashes.
-artifacts/** -text
-provenance/** -text
-reported/** -text
-verification/** -text
-*.svg -diff
-
-# The original large polymer source table is required for some training workflows.
-# Store its >50 MB bytes in Git LFS so ordinary Git commits stay manageable.
-artifacts/Generative_AI_surfactants_molecules/data/polymers_dataset.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx binary
+*.part* binary

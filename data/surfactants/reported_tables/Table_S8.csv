@@ -1,0 +1,7 @@
+Comparison / control,Effect or observed value,95% CI / null summary,Result
+Full_original vs Structure_original,Mean molecule-RMSE improvement = 0.007958,0.006874 to 0.009069,"Improvement supported; 0/10,000 bootstrap resamples ≤ 0"
+Full_complete vs Structure_complete,Mean molecule-RMSE improvement = 0.000092,−0.000172 to 0.000348,CI spans 0; bootstrap fraction ≤ 0 = 0.2489
+Full_complete vs Property_only,Mean molecule-RMSE improvement = 0.007100,0.006021 to 0.008177,"Improvement supported; 0/10,000 bootstrap resamples ≤ 0"
+Full_complete vs Full_original,Mean molecule-RMSE improvement = 0.000267,−0.000138 to 0.000675,CI spans 0; bootstrap fraction ≤ 0 = 0.1006
+Authentic Full_complete ensemble,Test MSE = 1.91 × 10⁻⁴; molecule RMSE = 0.013033,—,Reference property pairing
+20 shuffled property assignments,Mean test MSE = 2.55 × 10⁻⁴; median = 2.54 × 10⁻⁴,Range = 2.47–2.77 × 10⁻⁴,0/20 ≤ authentic; corrected empirical p = 1/21 = 0.0476

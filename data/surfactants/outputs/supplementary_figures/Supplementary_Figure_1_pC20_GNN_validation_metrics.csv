@@ -1,0 +1,9 @@
+metric,value
+held_out_n,295.0
+held_out_RMSE,0.4802650017231388
+held_out_R2,0.8151296087351388
+training_epochs,200.0
+final_training_MSE,0.148052064104165
+best_hidden_dim,128.0
+best_learning_rate,0.001
+best_batch_size,32.0

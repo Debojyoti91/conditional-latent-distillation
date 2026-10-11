@@ -1,0 +1,18 @@
+[
+  "formal_charge",
+  "positive_N_count",
+  "quaternary_N_count",
+  "phosphonium_count",
+  "sulfonium_count",
+  "longest_carbon_path",
+  "rotatable_bonds",
+  "ring_count",
+  "aromatic_fraction",
+  "molecular_weight",
+  "heavy_atom_count",
+  "TPSA",
+  "logP",
+  "HBD",
+  "HBA",
+  "conductivity_condition"
+]

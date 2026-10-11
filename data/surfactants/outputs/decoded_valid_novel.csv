@@ -1,0 +1,17 @@
+SMILES,is_valid,is_novel
+CC(C)(C)OCCCCCCCCCCCCOS(=O)(=O)[O-].[Na+],True,False
+C[SiH](O[SiH](C)O[SiH](C)O[Si](C)(CCCOCC1CO1)O[Si](C)(C)C)O[SiH](C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,True,False
+CCCCCCCCCCCC(=O)OCCOCC(OCCO)C1OCC(OCCO)C1OCCO,True,False
+CCCCCCCCCCCCN(CCC[N+](C)(C)CCCCCCCCCCCC)C(=[N+])N(C)C.[Cl-].[Cl-],True,False
+CCCCC(CC)CC(=O)OCC(COC(=O)CC(CC)CCCC)S(=O)(=O)[O-].[Na+],True,False
+CCCCCCCC[N+](C)(C)CCc1c(CC)cccc1[N+](C)(C)CCCCCCCC.[Br-].[Br-],True,False
+CCCCCCCCCCC1(C)OCC(C[N+](C)(C)C)O1.[Br-],True,False
+CCCCCCCCCCCCOC(O)C(O)C(O)C(O)C(O)C(O)C(O)C(O)C(O)CO,True,False
+Cc1cccc(C(=O)N(C)CCCCCCCCCCCC=O)c1C,True,False
+CCCCCCCCCCCC[N+]1(C)CCCC1=NCCc1ccccc1.[Br-],True,False
+CCCCCCCCCCCC(=O)OCCC(CO)COC(CO)COC(CO)COC(CO)COC(CO)COC(CO)COC(CO)COC(CO)COC(CO)COC(CO)CO,True,False
+CCCCCCCCCCCCS(=O)(=O)[O-].C[N+](C)(C)C,True,False
+CCCCCCCC/C=C/CCCCCCCC(=O)O[C@@]1(OC2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O,True,False
+CCCCCCCC[N+](C)(C)CCc1ccc(CC)cc1[N+](C)(C)CCCCCCCC.[Br-].[Br-],True,False
+CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC=CC[N+](C)(C)CCCNC(=O)CCCCCCCCCC.[Cl-].[Cl-],True,False
+CCCCCCCCCCCC[N+](C)(C)CC(O)C(O)C[N+](C)(C)CCCCCCCCCCCC.[Br-].[Br-],True,False

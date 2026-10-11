@@ -1,0 +1,20 @@
+{
+  "input_file": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/AEM_TOP_100_candidates.csv",
+  "total_candidates_screened": 100,
+  "conductivity_column_used": null,
+  "class_counts": {
+    "easy": 96,
+    "moderate": 4
+  },
+  "mean_synthesizability_score": 0.9609999999999999,
+  "mean_final_preMD_score": 0.722074118027005,
+  "outputs": {
+    "screened_csv": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_TOP_100_synthesizability_screened.csv",
+    "top20_csv": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_TOP_20_synthesizable_candidates.csv",
+    "top10_csv": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_TOP_10_synthesizable_for_MD.csv",
+    "class_distribution_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_synthesizability_class_distribution.png",
+    "final_score_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_final_preMD_score_distribution.png",
+    "synth_vs_aem_score_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_synthesizability_vs_AEM_score.png",
+    "top20_molecule_grid": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening/AEM_TOP_20_synthesizable_molecules.png"
+  }
+}

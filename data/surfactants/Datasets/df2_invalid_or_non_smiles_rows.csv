@@ -1,0 +1,10 @@
+Index,SMILES,STCMC_mN_per_m,Reference,_smiles_raw,smiles_key,invalid_reason,is_valid_smiles
+,Cationics,,,Cationics,,label/non-smiles,False
+304,N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCC)CCNCCN)CCNCCN)CCCCCCC.[Br-].[Br-],27.4,[76],N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCC)CCNCCN)CCNCCN)CCCCCCC.[Br-].[Br-],,rdkit-parse-fail (invalid/valence),False
+305,N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCCCCCC)CCNCCN)CCNCCN)CCCCCCCCCCC.[Br-].[Br-],28.3,[76],N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCCCCCC)CCNCCN)CCNCCN)CCCCCCCCCCC.[Br-].[Br-],,rdkit-parse-fail (invalid/valence),False
+306,N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCCCCCCCC)CCNCCN)CCNCCN)CCCCCCCCCCCCC.[Br-].[Br-],29.0,[76],N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCCCCCCCC)CCNCCN)CCNCCN)CCCCCCCCCCCCC.[Br-].[Br-],,rdkit-parse-fail (invalid/valence),False
+307,N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCCCCCCCCCC)CCNCCN)CCNCCN)CCCCCCCCCCCCCCC.[Br-].[Br-],30.9,[76],N1=C([N+](CC1)(CCCCCC[N+]2(=C(NCC2)CCCCCCCCCCCCCCC)CCNCCN)CCNCCN)CCCCCCCCCCCCCCC.[Br-].[Br-],,rdkit-parse-fail (invalid/valence),False
+612,C1=C(C(=CC(=C1)C=[N+](C)(C)CCCCCCCCCC)OC)OC.[Br-],32.1,[151],C1=C(C(=CC(=C1)C=[N+](C)(C)CCCCCCCCCC)OC)OC.[Br-],,rdkit-parse-fail (invalid/valence),False
+613,C1=C(C(=CC(=C1)C=[N+](C)(C)CCCCCCCCCCCC)OC)OC.[Br-],31.1,[151],C1=C(C(=CC(=C1)C=[N+](C)(C)CCCCCCCCCCCC)OC)OC.[Br-],,rdkit-parse-fail (invalid/valence),False
+614,C1=C(C(=CC(=C1)C=[N+](C)(C)CCCCCCCCCCCCCCCC)OC)OC.[Br-],39.6,[151],C1=C(C(=CC(=C1)C=[N+](C)(C)CCCCCCCCCCCCCCCC)OC)OC.[Br-],,rdkit-parse-fail (invalid/valence),False
+Nonionics,Nonionics,Nonionics,Nonionics,Nonionics,,label/non-smiles,False

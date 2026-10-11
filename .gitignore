@@ -1,24 +1,24 @@
+.venv/
 __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
-.venv/
+.coverage
+htmlcov/
 build/
 dist/
 results/
-.DS_Store
-# Model states, fitted scalers, private training exports — intentionally unpublished
+private_models/
 *.pt
 *.pth
 *.ckpt
 *.pkl
 *.joblib
-*.safetensors
-*.onnx
-*.h5
-*.hdf5
-*.pickle
-# Environment and temporary data
-.env
-.env.*
+*.log
 .ipynb_checkpoints/
+
+# Losslessly restored large inputs; packed source parts are tracked.
+/data/aems/Generative_AI_surfactants_molecules/data/polymers_dataset.csv
+/data/shared/Generative_AI_surfactants_molecules/data/polymers_dataset.csv
+/data/surfactants/outputs/decoded_raw_vectors.npy
+/data/surfactants/outputs/decoded_raw_vectors_diverse.npy

@@ -1,0 +1,134 @@
+[
+  {
+    "path": "data/aems/Generative_AI_surfactants_molecules/data/polymers_dataset.csv",
+    "size": 88260787,
+    "sha256": "c4f2e07fa12902ab8a4a52aa85cca80969aafaedc82bd511d342fc589d2a5d3e",
+    "parts": [
+      {
+        "path": "data/packed/aems__Generative_AI_surfactants_molecules__data__polymers_dataset.csv.gz.part000",
+        "sha256": "877e7590d6d37abf41e7417f2bb025165c8ffa1d062c70523510506abb9d3b65"
+      }
+    ]
+  },
+  {
+    "path": "data/shared/Generative_AI_surfactants_molecules/data/polymers_dataset.csv",
+    "size": 88240176,
+    "sha256": "14625020dbd5771d5d27b9383ea5df3dff150fc7a502a228d5d462f46346382f",
+    "parts": [
+      {
+        "path": "data/packed/shared__Generative_AI_surfactants_molecules__data__polymers_dataset.csv.gz.part000",
+        "sha256": "4b71d7e1a2199635e9ba611f9d9c7bc6edbfb439d3c8c0307855273a728e13cb"
+      }
+    ]
+  },
+  {
+    "path": "data/surfactants/outputs/decoded_raw_vectors.npy",
+    "size": 17338208,
+    "sha256": "93a03e41c33bc38b74fb7911832e9e967909b389bc515e2cd101ae80ec356eba",
+    "parts": [
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors.npy.gz.part000",
+        "sha256": "5ed85c0b33f3bcfc75dd976eb4219150d5a02ac4a865e24df00a16cd48501030"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors.npy.gz.part001",
+        "sha256": "57475c7cb2e5e094bc7c5527a9c33bb62cfbb1f93b1a2dab72c330d0489a6df3"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors.npy.gz.part002",
+        "sha256": "875863c55db0dc0e50d1fb7273658d078e23675fbc5a625e9ba2979d2cccb292"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors.npy.gz.part003",
+        "sha256": "79ebf8349fcea266846063f5e2c86a60e8f54ca70e974bc5543758fc4166a9a6"
+      }
+    ]
+  },
+  {
+    "path": "data/surfactants/outputs/decoded_raw_vectors_diverse.npy",
+    "size": 86690528,
+    "sha256": "a32b839fd15f363f6ffa4aa926dfe1d450df05cdc810a01656b1ee504a9f0a64",
+    "parts": [
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part000",
+        "sha256": "743062aed95ed2e3575b3540a7a7ff94d3fc9c599e22a6c22148f3a7668c42b5"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part001",
+        "sha256": "f871ad2f43f3dd2017ec42d3999a8acd1b8359af2d8df116ce910e3fa1f9e95a"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part002",
+        "sha256": "95f70c61af5b4d5895f298ddf748404b2f803ae3390f2efb3e888d9194a208d3"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part003",
+        "sha256": "5f99b6393fcffda8246b93745afacb77108e72d611c3502db332852c8c4ee652"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part004",
+        "sha256": "bbfd7459a1c4d9d9e0b047a25fc5719ee797a0f60117f351ba9dfa312351056f"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part005",
+        "sha256": "ac654e6374c2c39bf1efe35c07c143ca586b0a7078987122f0fedf93e1e182dd"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part006",
+        "sha256": "19744168d4da662fc97b6eb253bef90f0096599101a0ad16725260af07580fa0"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part007",
+        "sha256": "a550ca614eb35d1e2dc81fbffbef93d9a6d97ba5ef2412eaa341c464349d54fd"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part008",
+        "sha256": "a8878df003eb190d1d4c05e3c3b41aeea42f18811a3c9e255f135970f3349651"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part009",
+        "sha256": "e369c2189ce5ee36ad7cb65b2c8150f6797cd0708f6d2c7ea79498f8b14b31d1"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part010",
+        "sha256": "ed0369f8954ba11347811c2d1e2849f9fa174351f9d964aa404e8ea39a9c7713"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part011",
+        "sha256": "e7fe5a41ef2722389275a1181fa66ae027caa003d526c1e3ba402fb595a361db"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part012",
+        "sha256": "79aa62161a7c40b1c99ac8544cd9bf30f7adb9971858bde4d29465c8be0dca52"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part013",
+        "sha256": "ef5f28c6b588ef6f5b8b020d3d4aa4d99836a97a4cb34cec993764bf317dc617"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part014",
+        "sha256": "5a4471b158487db79feedbfa18295509e07f958112fdc55ef0d0cd816c054db5"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part015",
+        "sha256": "2e206228f7c2fd5b18a16d6f226f3c2cb7242742bcab147c5b69807a74fffb0d"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part016",
+        "sha256": "847e65b5208a17e905332abda3dce06d2c598f34dc4060114fdab4710b112f31"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part017",
+        "sha256": "462b394e86ce9f345e565a844f51c6c7a9750887578e5ea518b69a7391f5db88"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part018",
+        "sha256": "37214204b7c550563c616f7edb6c5de63816c47e1bc9e96413a61dc16c1c35b4"
+      },
+      {
+        "path": "data/packed/surfactants__outputs__decoded_raw_vectors_diverse.npy.gz.part019",
+        "sha256": "fb58b6fa90f1ff5bf7cc6e445afd2210726a375c7f8f914c51d19ba415b85617"
+      }
+    ]
+  }
+]

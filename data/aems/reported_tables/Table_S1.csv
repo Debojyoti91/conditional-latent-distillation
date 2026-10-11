@@ -1,0 +1,4 @@
+Evaluation,RMSE (S cm⁻¹),MAE (S cm⁻¹),R²
+Held-out test,0.0216,0.0161,0.776
+Five-fold CV (mean ± SD),0.0218 ± 0.0021,0.0166 ± 0.0021,0.698 ± 0.096
+Training fit,—,—,0.898

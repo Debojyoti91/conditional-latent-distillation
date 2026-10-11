@@ -1,0 +1,5 @@
+comparison,percent_test_MSE_reduction
+Full_original vs Structure_original,56.26287443994797
+Full_complete vs Structure_complete,1.6179124748864875
+Full_complete vs Property_only,54.18952856114568
+Full_complete vs Full_original,4.8263890321547995

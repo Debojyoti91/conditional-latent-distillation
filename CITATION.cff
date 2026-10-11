@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Cite the accompanying manuscript. Replace the collective author entry with the final manuscript author list when depositing this release."
 type: software
 title: "Conditional latent distillation decouples representation, search and chemical realization in sparse-data materials design"
-version: 1.0.0
+version: 0.1.0
 authors:
   - name: "Authors of the accompanying manuscript"
 abstract: "Code, selected input artifacts and reported-result reproduction workflows for conditional latent distillation in surfactant and AEM chemistry."

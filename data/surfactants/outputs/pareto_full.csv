@@ -1,0 +1,2 @@
+SMILES,chain_len,EO_block_count,PO_block_count,order,counterion,AW_ST_CMC_pred,pCMC_pred,AW_ST_CMC_sigma,pCMC_sigma,AW_norm,pCMC_norm,AW_inv,pCMC_inv,AW_score,pCMC_score,pareto_rank
+CCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OS(=O)(=O)[O-].[Na+],10,7,1,EO-PO,[Na+],32.930305,2.8294098,0.6761316,0.26185,0.0,0.0,1.0,1.0,0.5085805850711834,0.7696264590185637,1
