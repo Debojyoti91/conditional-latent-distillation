@@ -13,10 +13,11 @@ Source code, data and notebooks for the surfactant and anion-exchange membrane (
 | `src/latent_materials/` | Shared adapter/VAE architectures, statistics, identity safeguards, retrieval, inverse transforms, coherent model export and command-line interface |
 | `data/surfactants/`, `data/aems/`, `data/shared/` | Supplied inputs and reference numerical results, organized by domain |
 | `notebooks/surfactants/`, `notebooks/aems/` | Four clean workflow notebooks for each domain |
+| `checkpoints/` | Original recovered model artifacts, checksum manifest and restoration script |
 | `tests/` | Unit tests and small numerical/training integration checks |
 | `.github/workflows/tests.yml` | Automated tests on pushes and pull requests |
 
-Model weights, serialized fitted models, test logs, notebook outputs and generated figures are excluded. Training can create private model artifacts in a user-selected output directory.
+Original recovered model weights and fitted preprocessing objects are included as lossless packed parts under `checkpoints/packed/`. Run `python checkpoints/restore.py` after cloning to reconstruct 14 distinct artifacts and the historical paths for the shared teacher, with SHA-256 verification. New training outputs, test logs, notebook outputs and generated figures remain excluded.
 
 ## Installation
 
@@ -24,6 +25,7 @@ Use Python 3.12 and an isolated environment. From the repository root:
 
 ```bash
 python scripts/restore_data.py
+python checkpoints/restore.py
 python -m venv .venv
 # Activate .venv using the command appropriate for your operating system.
 python -m pip install -e ".[dev]"
@@ -82,9 +84,11 @@ The matched AEM BO benchmark contains 491 candidates; the production population 
 
 The four large source inputs are stored as lossless gzip parts under `data/packed/` to make authenticated GitHub transfers reliable. Run `python scripts/restore_data.py` once after cloning. It reconstructs the original filenames and verifies every part and restored file against SHA256 checksums; the scientific source code and numerical data match the tested package. The restored files are ignored by Git, while the packed parts remain tracked. No external dataset download or model weights are required for this restoration.
 
-## External checkpoints and new training
+## Included checkpoints and new training
 
-Saved-data figures and analyses use the distributed numerical artifacts. Generative workflows additionally require compatible author-owned teacher checkpoints. Inspect the relevant entry in `required_inputs.json`, place those files beneath an external directory using the listed relative paths, and pass `--model-root /path/to/private_models` or `model_root=...` in Python. Missing prerequisites are reported before an output workspace is created.
+Saved-data figures and analyses use the distributed numerical artifacts. The recovered author-supplied checkpoints are included with this repository. Run `python checkpoints/restore.py`, then pass `--model-root checkpoints` or `model_root="checkpoints"` in Python for workflows requiring models. `checkpoints/README.md` documents the contents and `checkpoints/manifest.json` records their original filenames, provenance and hashes. Inspect `required_inputs.json` for experiment prerequisites. Missing prerequisites are reported before an output workspace is created.
+
+The recovered artifacts retain their original bytes; inclusion does not establish that every historical checkpoint reproduces the final manuscript metrics. No model was retrained for this addition. New compatible checkpoints may still be supplied through an external model directory.
 
 New AEM ensemble selection uses validation RMSE. The selected ensemble, fitted preprocessing, prediction arrays and recomputed metrics are exported together. Charged mutation operators are shared by the generation routes and tested for sanitization and gate acceptance. Newly trained results remain new realizations; validation-based corrections do not retroactively validate historical test-selected results.
 

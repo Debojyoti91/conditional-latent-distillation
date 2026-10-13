@@ -8,3 +8,4 @@ data/** -text
 *.npz binary
 *.xlsx binary
 *.part* binary
+checkpoints/packed/** binary

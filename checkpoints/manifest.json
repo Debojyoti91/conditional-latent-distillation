@@ -1,0 +1,317 @@
+{
+  "schema_version": 2,
+  "source_archive": "surfactants(1).zip",
+  "source_archive_sha256": "e847065f630c02397b473a87b265c6aebfd169607f647b3948fbbfdc5660242d",
+  "description": "Losslessly recovered original model artifacts; duplicate teacher stored once.",
+  "archive_format": "tar.gz",
+  "archive_bytes": 66352877,
+  "archive_sha256": "e11707e5809c9fc24a8620ed17ed611a0232920395fc5fd95827e04b00b4fc14",
+  "files": [
+    {
+      "path": "checkpoints/Generative_AI_surfactants_molecules/models/prediction_model.h5",
+      "source_member": "surfactants/Generative_AI_surfactants_molecules/models/prediction_model.h5",
+      "bytes": 3122744,
+      "sha256": "7caad934f3f8dfeab3f2136d6687ccccaac169ce2b2196cde4f26404b16975b9",
+      "purpose": "Legacy Keras/HDF5 surfactant prediction model"
+    },
+    {
+      "path": "checkpoints/Generative_AI_surfactants_molecules/models/prediction_model.pt",
+      "source_member": "surfactants/Generative_AI_surfactants_molecules/models/prediction_model.pt",
+      "bytes": 1029527,
+      "sha256": "32af901076c98bb6546b4f435b9e9f0cb226119f8c893f39e54cc983be54acd9",
+      "purpose": "Legacy surfactant property prediction model"
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/CVAE/aem_conditional_adapter/aem_cond_scaler.pkl",
+      "source_member": "surfactants/IEMS_GEN_files/AEM/CVAE/aem_conditional_adapter/aem_cond_scaler.pkl",
+      "bytes": 999,
+      "sha256": "dc7780a7eb58d7dab500551bf90254bb441e9a6467b18f552f55450a56da83f5",
+      "purpose": "Fitted AEM conditioning scaler"
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/CVAE/aem_conditional_adapter/aem_latent_conditional_adapter.pt",
+      "source_member": "surfactants/IEMS_GEN_files/AEM/CVAE/aem_conditional_adapter/aem_latent_conditional_adapter.pt",
+      "bytes": 95465,
+      "sha256": "2b20e2c038af3f1e51c6aa5afe8a6de04951aca83d77ec2bac55bf8402fc1f5f",
+      "purpose": "AEM conditional latent adapter"
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/CVAE/data/aem_aux_scaler.pkl",
+      "source_member": "surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_aux_scaler.pkl",
+      "bytes": 815,
+      "sha256": "59f5031c3bdc0f3948be402eb98ba2bc2fe59aaa7b68bb43a10320a633c5d572",
+      "purpose": "Fitted AEM auxiliary-feature scaler"
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/CVAE/data/aem_combined_vae.pt",
+      "source_member": "surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_combined_vae.pt",
+      "bytes": 28011308,
+      "sha256": "cd36aabbf34376898d5c46dcaa435615f888b834eace95adc1748e48d59d4711",
+      "purpose": "AEM combined VAE model state"
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/CVAE/data/aem_graph_ae_regressor_ensemble.pt",
+      "source_member": "surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_graph_ae_regressor_ensemble.pt",
+      "bytes": 30381938,
+      "sha256": "f1b62721f9085f8ee42bacc7cc5966baf830464e7226abfa1e496f942ec6c763",
+      "purpose": "AEM graph autoencoder and conductivity/regressor ensemble artifact"
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/CVAE/data/aem_target_transformer.pkl",
+      "source_member": "surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_target_transformer.pkl",
+      "bytes": 869,
+      "sha256": "f0d6f8b0864794e91bc0ff3c95a1e90f17dd83a39ad75aeba6956a301f01e4a3",
+      "purpose": "Fitted AEM target transformer"
+    },
+    {
+      "path": "checkpoints/data/cond_scaler.pkl",
+      "source_member": "surfactants/data/cond_scaler.pkl",
+      "bytes": 863,
+      "sha256": "ebdf32a7ec5466b3957ad1caeeb74124fe059f1dcc4c4ae532cf8122bba8f867",
+      "purpose": "Fitted surfactant conditioning scaler"
+    },
+    {
+      "path": "checkpoints/data/latent_conditional_adapter.pt",
+      "source_member": "surfactants/data/latent_conditional_adapter.pt",
+      "bytes": 92153,
+      "sha256": "f2bc0ff320ecab17f1b07861087087a04976283fa8b92fe22e9b5f244f90c132",
+      "purpose": "Surfactant property-conditional latent adapter"
+    },
+    {
+      "path": "checkpoints/latent_adapter_two_domain_NatComm/aem_adapter_best.pt",
+      "source_member": "surfactants/latent_adapter_two_domain_NatComm/aem_adapter_best.pt",
+      "bytes": 94913,
+      "sha256": "0f2d7c9e6040c8dc0388ce067ecf1122092697d649746ccbcfa23b251c294aac",
+      "purpose": "AEM adapter for two-domain latent analysis"
+    },
+    {
+      "path": "checkpoints/latent_adapter_two_domain_NatComm/surfactant_adapter_best.pt",
+      "source_member": "surfactants/latent_adapter_two_domain_NatComm/surfactant_adapter_best.pt",
+      "bytes": 92437,
+      "sha256": "858af208de54bd8959529f8d2544bf516fcb1789a535522d2fe1ce95a57a5119",
+      "purpose": "Surfactant adapter for two-domain latent analysis"
+    },
+    {
+      "path": "checkpoints/models/pretrained_vae.pt",
+      "source_member": "surfactants/models/pretrained_vae.pt",
+      "bytes": 10199381,
+      "sha256": "2ef9e43bbd2e1499ae5e7cecb9e27216e546eca461299fbd8680ed4463c35523",
+      "purpose": "Shared pretrained VAE teacher; canonical surfactant-generation path"
+    },
+    {
+      "path": "checkpoints/outputs/supplementary_figures/Supplementary_Figure_1_pC20_GNN_validation_model.pt",
+      "source_member": "surfactants/outputs/supplementary_figures/Supplementary_Figure_1_pC20_GNN_validation_model.pt",
+      "bytes": 242465,
+      "sha256": "a6a7a6a5ae6cc31aaec0bd543ecca967ee286481dc6427e10598e38e9e3f8770",
+      "purpose": "Surfactant pC20 GNN validation checkpoint"
+    }
+  ],
+  "aliases": [
+    {
+      "path": "checkpoints/Generative_AI_surfactants_molecules/models/pretrained_vae.pt",
+      "target": "checkpoints/models/pretrained_vae.pt",
+      "sha256": "2ef9e43bbd2e1499ae5e7cecb9e27216e546eca461299fbd8680ed4463c35523",
+      "bytes": 10199381
+    },
+    {
+      "path": "checkpoints/IEMS_GEN_files/AEM/Generative_AI_surfactants_molecules/models/pretrained_vae.pt",
+      "target": "checkpoints/models/pretrained_vae.pt",
+      "sha256": "2ef9e43bbd2e1499ae5e7cecb9e27216e546eca461299fbd8680ed4463c35523",
+      "bytes": 10199381
+    }
+  ],
+  "parts": [
+    {
+      "path": "checkpoints/packed/part-0000.bin",
+      "bytes": 2097152,
+      "sha256": "35f44b48c4816efbf33416a30691def32850566cd32206397d332f5838e47c86",
+      "git_blob_sha1": "19aa04bf1d133c17c7c5ee1248859c7035dec3ea"
+    },
+    {
+      "path": "checkpoints/packed/part-0001.bin",
+      "bytes": 2097152,
+      "sha256": "1baa719fad3e0d65c819247750ae76bda47788b7f14e0152f10135dc0c16f99a",
+      "git_blob_sha1": "22254c322506ef08eacfac6066127faf8cad43f9"
+    },
+    {
+      "path": "checkpoints/packed/part-0002.bin",
+      "bytes": 2097152,
+      "sha256": "d81f52695e84372f7f146a2210fde3ce742dfe38e17c9356608450e795d65a3a",
+      "git_blob_sha1": "6b16732482005bad66d98cfdb7bbc0486496dac1"
+    },
+    {
+      "path": "checkpoints/packed/part-0003.bin",
+      "bytes": 2097152,
+      "sha256": "ad01a7fea6c650137255ec5b68b42f21e34fcfe61faf09b28e1cc783cd3eb31e",
+      "git_blob_sha1": "aa16ed984cea45f8aa4d4ee74fe33701430007b4"
+    },
+    {
+      "path": "checkpoints/packed/part-0004.bin",
+      "bytes": 2097152,
+      "sha256": "2e1680dabc8fc1830a103def88b6ca1909d9d69cc6766d89c5b960c78315e1cd",
+      "git_blob_sha1": "acdf8ee95f62f5749127b621627b7049a3550fe0"
+    },
+    {
+      "path": "checkpoints/packed/part-0005.bin",
+      "bytes": 2097152,
+      "sha256": "0570e429989b60ade427ed183d5511df2e2a8a5c538fb716e79f08d04403b443",
+      "git_blob_sha1": "7b2ca625911ff990f3781edeaf1741a812e29916"
+    },
+    {
+      "path": "checkpoints/packed/part-0006.bin",
+      "bytes": 2097152,
+      "sha256": "7a4e76b062801b9f68c0d07886542e9c8e4c014b02dafbe15443e28f92a6aede",
+      "git_blob_sha1": "7cab3cdb36198fcb7f51f42df556fac8421bcf56"
+    },
+    {
+      "path": "checkpoints/packed/part-0007.bin",
+      "bytes": 2097152,
+      "sha256": "280e8670755e64acf7c78c661a0c8436db5996267d538062d863f2b5cab91bd7",
+      "git_blob_sha1": "cfb2e9c2522feda3d36b3af4ee688b73a215edf9"
+    },
+    {
+      "path": "checkpoints/packed/part-0008.bin",
+      "bytes": 2097152,
+      "sha256": "3ec14223400b274838eaf08ee4d52cd5792bdf606015172659e2771b8cfd53e3",
+      "git_blob_sha1": "086d85d47e982c772a4249c4881445ad811171c9"
+    },
+    {
+      "path": "checkpoints/packed/part-0009.bin",
+      "bytes": 2097152,
+      "sha256": "af7dd426c9cef6aedd040a987228bcea96c981dae0e3e592b158695940afb90c",
+      "git_blob_sha1": "d26da359e06eb5864dd6ebfab66491feca6f9c41"
+    },
+    {
+      "path": "checkpoints/packed/part-0010.bin",
+      "bytes": 2097152,
+      "sha256": "060fae4f8352bf98e0efbabf17485dc708b0ad608e4706573c4a049e32cebaaa",
+      "git_blob_sha1": "23ed0bdb94f7f117ae10c402513eb710b413a655"
+    },
+    {
+      "path": "checkpoints/packed/part-0011.bin",
+      "bytes": 2097152,
+      "sha256": "187b10623b7f15e28966ae9b35d7ee1a1fa4e6e1b32a5d3c72701fd766047111",
+      "git_blob_sha1": "0702538ae95c1852d3123eec664b0de48b30349b"
+    },
+    {
+      "path": "checkpoints/packed/part-0012.bin",
+      "bytes": 2097152,
+      "sha256": "3bab9d9b77b98562026b8e5734060e4ca527170d2c7f9517632799ebdba9b8e7",
+      "git_blob_sha1": "f846fe2f0ff772f230b2e4ae5aa470e5e8552b27"
+    },
+    {
+      "path": "checkpoints/packed/part-0013.bin",
+      "bytes": 2097152,
+      "sha256": "2977c206a409d3a6bfd3ce4bc1a148dda0a64acf86125b8965680257909c6af2",
+      "git_blob_sha1": "47f85b13681f42294084dbd71b7532dd55fff3fe"
+    },
+    {
+      "path": "checkpoints/packed/part-0014.bin",
+      "bytes": 2097152,
+      "sha256": "ccd1b8f8010ce00e6e651e0ec30b16686f19d23503d73a1a6fa584a789ad3247",
+      "git_blob_sha1": "ab24ff37e4e4d30c18b6c32030ee63af70d5f1c2"
+    },
+    {
+      "path": "checkpoints/packed/part-0015.bin",
+      "bytes": 2097152,
+      "sha256": "20746d2e8f826b74de8673fcd09897363c570ed86127c333733ccb9390a269ce",
+      "git_blob_sha1": "97d7f071bf4537bbf522226ace29a051aec530e4"
+    },
+    {
+      "path": "checkpoints/packed/part-0016.bin",
+      "bytes": 2097152,
+      "sha256": "397ce9bd87beb6738c996ce2f2e11c041125e7a55d4179285810e8f0d949c28e",
+      "git_blob_sha1": "d2750abc9fc047b10c4ed1847533f69d8141418e"
+    },
+    {
+      "path": "checkpoints/packed/part-0017.bin",
+      "bytes": 2097152,
+      "sha256": "2fc9106f9ed239474ee750681f64670fd11d11346dd634de9a899476a74eb9f3",
+      "git_blob_sha1": "b96597b2e9877606ff36e6c67cdec131d1433832"
+    },
+    {
+      "path": "checkpoints/packed/part-0018.bin",
+      "bytes": 2097152,
+      "sha256": "554f52becdd860046bc933d0bce170d75739e62576315157decc1c80a8bf5af4",
+      "git_blob_sha1": "8ce12df260572594050c53828bc838849a77f7dd"
+    },
+    {
+      "path": "checkpoints/packed/part-0019.bin",
+      "bytes": 2097152,
+      "sha256": "52ac05469c95892e967efb338b53f8d2bc2dde9b21328e8254a190042be45d1e",
+      "git_blob_sha1": "4a761a541794621bf3c565c868a361e9e2539a71"
+    },
+    {
+      "path": "checkpoints/packed/part-0020.bin",
+      "bytes": 2097152,
+      "sha256": "1123b942828ec5acc1ddd3e3e25d152a2e728718fd4ecde272ae7c99bc115473",
+      "git_blob_sha1": "743707f21fac0b633c36e48d96189a9853324f65"
+    },
+    {
+      "path": "checkpoints/packed/part-0021.bin",
+      "bytes": 2097152,
+      "sha256": "f55be285ef5f68d26946c11bc411e3940a2fa697a22e1b2de7fb48f38e799f01",
+      "git_blob_sha1": "1f9befe40299e8aea582e0914979f2dd23c69b9f"
+    },
+    {
+      "path": "checkpoints/packed/part-0022.bin",
+      "bytes": 2097152,
+      "sha256": "7455c5788ed5314b2ac1eba77dc8a9263723fa609e811e325e4d6e3260db9faf",
+      "git_blob_sha1": "4c1d69a4c66b43e500b8fc2fb0873dcf29a79a3b"
+    },
+    {
+      "path": "checkpoints/packed/part-0023.bin",
+      "bytes": 2097152,
+      "sha256": "335e1c051e7abc5b5ff53ebbcf2c91241778bfb154a9fbee8cbd263d42150210",
+      "git_blob_sha1": "0253cb776ef3ef8d8e553ec0d53d08a297e3fb26"
+    },
+    {
+      "path": "checkpoints/packed/part-0024.bin",
+      "bytes": 2097152,
+      "sha256": "e6d34535aa06d071214a0f3d8b739eb6c45052139f7d6227d2bd6166bb8cbe1e",
+      "git_blob_sha1": "320bb342ae7a8fdf3bc915f5cb7ee0d88979949d"
+    },
+    {
+      "path": "checkpoints/packed/part-0025.bin",
+      "bytes": 2097152,
+      "sha256": "aa8cb982d9f88853db60cf4c78544087f90d65ffa5bf704941c50c672c14ae9b",
+      "git_blob_sha1": "98e420ceb042d1c06e009dd94af462158bfd7253"
+    },
+    {
+      "path": "checkpoints/packed/part-0026.bin",
+      "bytes": 2097152,
+      "sha256": "95546e713651f9034a796f3b3014905605a40dd33bed0e613fb393d1a3c3c5f3",
+      "git_blob_sha1": "db89bf4063cce9bc092259419161145d375f90e1"
+    },
+    {
+      "path": "checkpoints/packed/part-0027.bin",
+      "bytes": 2097152,
+      "sha256": "0f1ae0d4496ca3133bbbb154bc1339f6a7237a3d62ee235339ac218078eabb24",
+      "git_blob_sha1": "7c41d72c5ff93c174ce62dfb613c237ca891111e"
+    },
+    {
+      "path": "checkpoints/packed/part-0028.bin",
+      "bytes": 2097152,
+      "sha256": "91d2a9faf52e904de8fc3d58adc86b1171bbbe1274de40092314d39cacfb86bb",
+      "git_blob_sha1": "8cae160656c8f79d3422d1914e7b54bddd97bf39"
+    },
+    {
+      "path": "checkpoints/packed/part-0029.bin",
+      "bytes": 2097152,
+      "sha256": "6c598d8fb34b9edd84c9e580e1fcd9c94603ce39d5023408161dd875737121a3",
+      "git_blob_sha1": "3c96100fb18e63f3a4fb6e14f4a6383b6afe0fdc"
+    },
+    {
+      "path": "checkpoints/packed/part-0030.bin",
+      "bytes": 2097152,
+      "sha256": "6775bc08e821b61bcb4fd0b0814bd6024781db969582948b7dc2d50d1cf547de",
+      "git_blob_sha1": "df1d1ff16a6074008876c28997d4a80f5f8c80d3"
+    },
+    {
+      "path": "checkpoints/packed/part-0031.bin",
+      "bytes": 1341165,
+      "sha256": "12b258fb093dc492864c147712d6f9f227197f23c7c4a5e41831750a73285382",
+      "git_blob_sha1": "dd8908be2781483bb0cfbea54b5dd60d4f188616"
+    }
+  ]
+}

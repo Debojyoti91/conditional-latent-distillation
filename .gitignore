@@ -22,3 +22,6 @@ private_models/
 /data/shared/Generative_AI_surfactants_molecules/data/polymers_dataset.csv
 /data/surfactants/outputs/decoded_raw_vectors.npy
 /data/surfactants/outputs/decoded_raw_vectors_diverse.npy
+
+# Restored historical HDF5 model; packed checkpoint parts remain tracked.
+/checkpoints/**/*.h5
