@@ -1,0 +1,20 @@
+path,filename,rows,cols,smiles_columns,conductivity_columns,score_columns
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/AEM_csv_inventory.csv,AEM_csv_inventory.csv,17,7,smiles_columns,conductivity_columns,score_columns
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_augmented_ranked_candidates_BO.csv,aem_augmented_ranked_candidates_BO.csv,491,3,SMILES,"Predicted_conductivity, Predicted_conductivity_std_transformed",
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_augmented_ranked_candidates_NN.csv,aem_augmented_ranked_candidates_NN.csv,250,3,SMILES,"Predicted_conductivity, Predicted_conductivity_std_transformed",
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_clean.csv,aem_clean.csv,207,23,SMILES,AnionConductivity,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_gnn_5fold_summary.csv,aem_gnn_5fold_summary.csv,5,4,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_novel_candidates_clean.csv,aem_novel_candidates_clean.csv,250,2,SMILES,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_novel_candidates_clean_BO.csv,aem_novel_candidates_clean_BO.csv,491,1,SMILES,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_test20.csv,aem_test20.csv,42,15,SMILES,Conductivity,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_test_error_by_conductivity_bin.csv,aem_test_error_by_conductivity_bin.csv,4,6,,conductivity_bin,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_train80.csv,aem_train80.csv,165,15,SMILES,Conductivity,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/aem_train_val_test_predictions.csv,aem_train_val_test_predictions.csv,207,6,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/modified_data_final.csv,modified_data_final.csv,206,6,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/nn_bo_comparison/AEM_NN_BO_candidate_metrics.csv,AEM_NN_BO_candidate_metrics.csv,256,22,"SMILES, canonical_SMILES","Predicted_conductivity, Predicted_conductivity_std_transformed","SA_score, composite_score"
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/nn_bo_comparison/AEM_NN_BO_convex_hull_coverage_summary.csv,AEM_NN_BO_convex_hull_coverage_summary.csv,1,7,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/nn_bo_comparison/AEM_NN_BO_joint_PCA_coordinates.csv,AEM_NN_BO_joint_PCA_coordinates.csv,392,3,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/nn_bo_comparison/AEM_NN_BO_novelty_category_percentages.csv,AEM_NN_BO_novelty_category_percentages.csv,4,3,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/CVAE/data/nn_bo_comparison/AEM_NN_BO_postprocessing_summary_table.csv,AEM_NN_BO_postprocessing_summary_table.csv,2,26,,,"mean_composite_score, std_composite_score, median_composite_score, high_score_fraction_percent, mean_SA_score, std_SA_score, median_SA_score"
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/Generative_AI_surfactants_molecules/data/polymers_dataset.csv,polymers_dataset.csv,20610,1,,,
+/content/drive/MyDrive/surfactants/IEMS_GEN_files/AEM/recovered_AEM_BO_anchors_from_existing_anchor_file.csv,recovered_AEM_BO_anchors_from_existing_anchor_file.csv,0,1,anchor,,

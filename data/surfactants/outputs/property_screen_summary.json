@@ -1,0 +1,16 @@
+{
+  "constraints_mode": "AUTO",
+  "filters_applied": {
+    "pCMC_pred_range": [
+      1.376661624302443,
+      5.045819883231843
+    ],
+    "AW_ST_CMC_pred_range": [
+      26.263,
+      45.6
+    ]
+  },
+  "n_candidates": 881,
+  "n_passed": 0,
+  "extra_models_report": {}
+}

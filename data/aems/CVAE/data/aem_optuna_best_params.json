@@ -1,0 +1,28 @@
+{
+  "best_validation_r2": 0.6705311055631411,
+  "best_params": {
+    "enc_hidden": 128,
+    "enc_layers": 2,
+    "enc_dropout": 0.05612124806084344,
+    "use_mean_max_pool": false,
+    "growth": 128,
+    "n_blocks": 2,
+    "dropout": 0.05629162727927385,
+    "head_hidden": 512,
+    "lr": 0.00030906968266401134,
+    "weight_decay": 2.7866253123217082e-06,
+    "batch_size": 16,
+    "alpha": 0.5904883847684,
+    "recon_weight": 0.05,
+    "use_sample_weight": false,
+    "high_cond_threshold": 0.08,
+    "high_cond_weight": 1.0
+  },
+  "best_trial_user_attrs": {
+    "val_r2": 0.6705311055631411,
+    "val_rmse": 0.02694862994918468,
+    "high_cond_weight": 1.0,
+    "recon_weight": 0.05,
+    "use_mean_max_pool": false
+  }
+}

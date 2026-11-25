@@ -1,0 +1,27 @@
+{
+  "input_file": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/AEM_TOP_100_candidates.csv",
+  "total_candidates_screened": 100,
+  "conductivity_column_used": null,
+  "class_counts": {
+    "easy": 94,
+    "moderate": 6
+  },
+  "primary_disconnection_counts": {
+    "alkyl quaternization candidate": 58,
+    "benzyl quaternization candidate": 31,
+    "imidazolium alkylation candidate": 11
+  },
+  "mean_synthesizability_score": 0.9598000000000002,
+  "mean_final_preMD_score": 0.7216541180270052,
+  "outputs": {
+    "screened_csv": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_TOP_100_synthesizability_screened_v2.csv",
+    "top20_csv": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_TOP_20_synthesizable_candidates_v2.csv",
+    "top10_csv": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_TOP_10_synthesizable_for_MD_v2.csv",
+    "class_distribution_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_synthesizability_class_distribution_v2.png",
+    "primary_disconnection_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_primary_disconnection_distribution_v2.png",
+    "final_score_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_final_preMD_score_distribution_v2.png",
+    "synth_vs_aem_score_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_synthesizability_vs_AEM_score_v2.png",
+    "final_score_by_disconnection_plot": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_final_score_by_disconnection_v2.png",
+    "top20_molecule_grid": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/synthesizability_screening_v2/AEM_TOP_20_synthesizable_molecules_v2.png"
+  }
+}

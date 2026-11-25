@@ -1,0 +1,33 @@
+{
+  "method": "Corrected AEM BO generated candidate postprocessing",
+  "input_file": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/aem_novel_candidates_clean_2.csv",
+  "total_loaded": 482,
+  "valid_unique": 482,
+  "after_aem_filter": 322,
+  "after_diversity_filter": 125,
+  "diversity_threshold": 0.8,
+  "top_candidates_exported": {
+    "top_100": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/AEM_TOP_100_candidates.csv",
+    "top_20": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/AEM_TOP_20_candidates.csv",
+    "top_10_for_MD": "/content/drive/MyDrive/surfactants/IEMS_GEN_files/postprocessing_AEM_corrected/AEM_TOP_10_candidates_for_MD.csv"
+  },
+  "conductivity_column_used": null,
+  "statistics": {
+    "MW_mean": 571.2725200000002,
+    "MW_std": 181.74550017252488,
+    "LogP_mean": 8.990695039999995,
+    "LogP_std": 3.143925711157172,
+    "TPSA_mean": 26.980240000000002,
+    "RotBonds_mean": 14.048,
+    "formal_charge_mean": 1.208,
+    "cationic_site_count_mean": 1.208,
+    "cationic_N_count_mean": 1.208,
+    "cationic_P_count_mean": 0.0,
+    "IEC_proxy_mean": 2.2477721732619345,
+    "SA_score_mean": 5.66957756
+  },
+  "corrected_headgroup_distribution": {
+    "quat_ammonium": 111,
+    "aromatic_N_cation": 14
+  }
+}

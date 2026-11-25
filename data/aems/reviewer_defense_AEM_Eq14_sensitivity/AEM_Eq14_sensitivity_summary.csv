@@ -1,0 +1,2 @@
+N_candidates,N_perturbations,weight_variation_percent,spearman_mean,spearman_median,spearman_2.5pct,spearman_97.5pct,top10_overlap_mean,top10_overlap_median,top10_overlap_2.5pct,top10_overlap_97.5pct,top20_overlap_mean,top20_overlap_median,top20_overlap_2.5pct,top20_overlap_97.5pct
+125,10000,20.0,0.996737969892473,0.9971920122887864,0.9910228878648232,0.9995268817204299,8.7223,9.0,7.0,10.0,19.591,20.0,19.0,20.0

@@ -1,0 +1,52 @@
+{
+  "interpretation": "Representation-level conditioning-information ablation against authenticated saved teacher latent coordinates; not a generator retraining ablation.",
+  "n_candidates": 881,
+  "latent_dim": 32,
+  "predicted_property_columns": [
+    "AW_ST_CMC_pred",
+    "pCMC_pred"
+  ],
+  "original_structure_columns": [
+    "longest_chain",
+    "EO_count",
+    "aliphatic_fraction",
+    "ring_count",
+    "branching_index",
+    "head_sulfate",
+    "head_sulfonate",
+    "head_carboxylate",
+    "head_quat_ammonium",
+    "head_ethoxylated",
+    "head_other"
+  ],
+  "complete_structure_columns": [
+    "longest_chain",
+    "EO_count",
+    "aliphatic_fraction",
+    "ring_count",
+    "branching_index",
+    "head_sulfate",
+    "head_sulfonate",
+    "head_carboxylate",
+    "head_quat_ammonium",
+    "head_ethoxylated",
+    "head_other",
+    "PO_block_count",
+    "order_PO_EO"
+  ],
+  "optimization_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "n_property_shuffles": 20,
+  "bootstrap_replicates": 10000,
+  "fit_n": 563,
+  "validation_n": 141,
+  "test_n": 177,
+  "split_random_state": 42,
+  "eo_definition": "len(re.findall(r\"CCO\", smiles))",
+  "properties_are": "saved predicted properties, not experimental labels"
+}

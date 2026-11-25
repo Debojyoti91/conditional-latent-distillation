@@ -1,0 +1,95 @@
+{
+  "surfactant_conditioning_ablation": {
+    "files": [
+      "outputs/genlib_candidates_v1.csv",
+      "outputs/candidates_with_predictions.csv",
+      "data/figure2_teacher_student_latents.npz"
+    ]
+  },
+  "figure_s11": {
+    "files": [
+      "conditioning_ablation_CORRECTED/main_ablation_by_seed.csv",
+      "conditioning_ablation_CORRECTED/shuffled_property_summary.csv",
+      "conditioning_ablation_CORRECTED/ablation_test_predictions.npz"
+    ]
+  },
+  "figure_2": {
+    "files": [
+      "latent_adapter_two_domain_NatComm/two_domain_latent_results.npz",
+      "latent_adapter_two_domain_NatComm/two_domain_adapter_summary.csv"
+    ]
+  },
+  "figure_3": {
+    "files": [
+      "outputs/novel_candidates_property_guided_structural_clean.csv",
+      "outputs/novel_candidates_property_guided_structural_clean_bo_qlogehvi_fast.csv",
+      "data/surfpro_train80_PO_balanced.csv",
+      "data/surfpro_test20_real.csv"
+    ]
+  },
+  "figure_4_aem": {
+    "files": [
+      "IEMS_GEN_files/AEM/CVAE/data/aem_augmented_ranked_candidates_NN.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_novel_candidates_clean_BO.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_train80.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_test20.csv"
+    ]
+  },
+  "aem_statistics": {
+    "files": [
+      "IEMS_GEN_files/AEM/CVAE/data/nn_bo_comparison/AEM_NN_BO_candidate_metrics.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_augmented_ranked_candidates_NN.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_augmented_ranked_candidates_BO.csv"
+    ]
+  },
+  "aem_weight_sensitivity": {
+    "files": [
+      "IEMS_GEN_files/postprocessing_AEM_corrected/aem_candidates_ranked.csv"
+    ]
+  },
+  "aem_production_postprocess": {
+    "files": [
+      "IEMS_GEN_files/aem_novel_candidates_clean_2.csv"
+    ]
+  },
+  "aem_synthesizability": {
+    "files": [
+      "IEMS_GEN_files/postprocessing_AEM_corrected/AEM_TOP_100_candidates.csv"
+    ]
+  },
+  "surfactant_surrogates": {
+    "files": [
+      "data/surfpro_imputed.csv",
+      "Datasets/surfpro_literature(version 1.1).xlsx"
+    ]
+  },
+  "extended_data_aem": {
+    "files": [
+      "IEMS_GEN_files/AEM/CVAE/data/aem_augmented_ranked_candidates_NN.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_novel_candidates_clean_BO.csv"
+    ]
+  },
+  "aem_bo_production_corrected": {
+    "files": [
+      "IEMS_GEN_files/AEM/CVAE/data/aem_train80.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_test20.csv",
+      "Generative_AI_surfactants_molecules/models/pretrained_vae.pt"
+    ]
+  },
+  "aem_surrogate_validation_selected": {
+    "files": [
+      "IEMS_GEN_files/AEM/CVAE/data/modified_data_final.csv",
+      "IEMS_GEN_files/AEM/CVAE/data/aem_novel_candidates_clean_BO.csv",
+      "Generative_AI_surfactants_molecules/data/polymers_dataset.csv",
+      "Generative_AI_surfactants_molecules/models/pretrained_vae.pt"
+    ]
+  },
+  "surfactant_generation": {
+    "files": [
+      "data/surfpro_imputed.csv",
+      "data/surfpro_train80.csv",
+      "data/surfpro_test20.csv",
+      "models/pretrained_vae.pt"
+    ]
+  }
+}

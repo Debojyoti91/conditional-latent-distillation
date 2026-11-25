@@ -1,0 +1,11 @@
+metric,value
+n_molecules,881.0
+latent_dimension,32.0
+n_latent_coordinates,28192.0
+latent_MSE,0.00036849113062073605
+latent_RMSE,0.019196122801772655
+flattened_Pearson_r,0.9812862838977376
+median_per_molecule_cosine_similarity,0.9867996577939464
+median_per_molecule_L2_error,0.09381214845353487
+PC1_variance_percent,57.37625198071639
+PC2_variance_percent,12.928930468359159

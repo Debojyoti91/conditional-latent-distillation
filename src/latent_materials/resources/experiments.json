@@ -1,0 +1,86 @@
+{
+  "surfactant_conditioning_ablation": {
+    "module": "latent_materials.experiments.surfactants.surfactant_conditioning_ablation",
+    "description": "Final five-variant, five-seed conditioning ablation and 20 partitionwise shuffles (Tables S7/S8).",
+    "domain": "surfactants",
+    "execution": "training"
+  },
+  "figure_s11": {
+    "module": "latent_materials.experiments.surfactants.figure_s11",
+    "description": "Final two-panel conditioning-ablation figure.",
+    "domain": "surfactants",
+    "execution": "analysis"
+  },
+  "figure_2": {
+    "module": "latent_materials.experiments.surfactants.figure_2",
+    "description": "Final six-panel, two-domain held-out validation figure from saved latent results. Training producing this cache is missing.",
+    "domain": "surfactants",
+    "execution": "analysis"
+  },
+  "figure_3": {
+    "module": "latent_materials.experiments.surfactants.figure_3",
+    "description": "Surfactant NN/BO comparison. Produces manuscript Figure 3.",
+    "domain": "surfactants",
+    "execution": "analysis"
+  },
+  "figure_4_aem": {
+    "module": "latent_materials.experiments.aems.figure_4_aem",
+    "description": "Matched AEM NN/BO selection and six-panel comparison recovered from the supplied HGARE notebook, cells48\u201353. Uses frozen inputs, not retrained surrogate predictions.",
+    "domain": "aems",
+    "execution": "analysis"
+  },
+  "aem_statistics": {
+    "module": "latent_materials.experiments.aems.aem_statistics",
+    "description": "Final canonical-SMILES conductivity alignment and statistics only; aligned by canonical SMILES.",
+    "domain": "aems",
+    "execution": "analysis"
+  },
+  "aem_weight_sensitivity": {
+    "module": "latent_materials.experiments.aems.aem_weight_sensitivity",
+    "description": "125-member production score sensitivity and Figure S8. Historical equation number 14 is manuscript Eq. 10.",
+    "domain": "aems",
+    "execution": "analysis"
+  },
+  "aem_production_postprocess": {
+    "module": "latent_materials.experiments.aems.aem_production_postprocess",
+    "description": "482 -> 322 -> 125 production postprocessing; no conductivity term in recorded production score.",
+    "domain": "aems",
+    "execution": "analysis"
+  },
+  "aem_synthesizability": {
+    "module": "latent_materials.experiments.aems.aem_synthesizability",
+    "description": "Template-based screening after production ranking; not experimental synthesis validation.",
+    "domain": "aems",
+    "execution": "analysis"
+  },
+  "surfactant_surrogates": {
+    "module": "latent_materials.experiments.surfactants.surfactant_surrogates",
+    "description": "Final manuscript-matched pC20, two-output GNN and CV workflow implementations. Original final checkpoints/prediction arrays are not supplied. New training is a new realization, not an exact replacement of the reported run.",
+    "domain": "surfactants",
+    "execution": "training"
+  },
+  "extended_data_aem": {
+    "module": "latent_materials.experiments.aems.extended_data_aem",
+    "description": "Final gallery plausibility filter and six representative NN/BO structures for the extended-data gallery.",
+    "domain": "aems",
+    "execution": "analysis"
+  },
+  "aem_bo_production_corrected": {
+    "module": "latent_materials.experiments.aems.aem_bo_production_corrected",
+    "description": "New experiment: corrected executable mutations/anchor linkage.",
+    "domain": "aems",
+    "execution": "training"
+  },
+  "aem_surrogate_validation_selected": {
+    "module": "latent_materials.experiments.aems.aem_surrogate_validation_selected",
+    "description": "New experiment: validation-only final selection and post-selection model export.",
+    "domain": "aems",
+    "execution": "training"
+  },
+  "surfactant_generation": {
+    "module": "latent_materials.experiments.surfactants.surfactant_generation",
+    "description": "Surfactant constrained-library generation, structure-only guidance and conditional-adapter mutation expansion.",
+    "domain": "surfactants",
+    "execution": "training"
+  }
+}
